@@ -12,6 +12,12 @@ This repository documents **Pillar 7** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-7-product-leadership-playbooks.png)
+
+---
+
 ## System Role in PLOS
 
 The **Product Leadership Playbooks** pillar defines how recurring work is executed consistently.
