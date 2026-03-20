@@ -12,6 +12,13 @@ This repository documents **Pillar 4** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-4-product-delivery.png)
+
+
+---
+
 ## System Role in PLOS
 
 The **Product Delivery System** is responsible for executing approved work.
