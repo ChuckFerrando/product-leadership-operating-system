@@ -108,6 +108,20 @@ docs/                    → Supporting documentation
 
 ---
 
+## Portfolio Diagrams
+
+- [PLOS Meta Diagram](./assets/diagrams/plos-meta-diagram.png)
+- [Pillar 1 — Systems Architecture](./assets/diagrams/pillar-1-systems-architecture.png)
+- [Pillar 2 — Operating Model](./assets/diagrams/pillar-2-operating-model.png)
+- [Pillar 3 — Portfolio Governance](./assets/diagrams/pillar-3-portfolio-governance.png)
+- [Pillar 4 — Product Delivery](./assets/diagrams/pillar-4-product-delivery.png)
+- [Pillar 5 — Customer Outcomes](./assets/diagrams/pillar-5-customer-outcomes.png)
+- [Pillar 6 — Decision Intelligence](./assets/diagrams/pillar-6-decision-intelligence.png)
+- [Pillar 7 — Product Leadership Playbooks](./assets/diagrams/pillar-7-product-leadership-playbooks.png)
+- [Pillar 8 — Product Leadership Labs](./assets/diagrams/pillar-8-product-leadership-labs.png)
+
+---
+
 ## Audience
 
 This architecture is designed for:
