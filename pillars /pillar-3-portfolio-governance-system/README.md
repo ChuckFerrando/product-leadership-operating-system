@@ -12,6 +12,12 @@ This repository documents **Pillar 3** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-3-portfolio-governance.png)
+
+---
+
 ## System Role in PLOS
 
 The **Portfolio Governance System** converts strategic direction into governed portfolio commitments.
