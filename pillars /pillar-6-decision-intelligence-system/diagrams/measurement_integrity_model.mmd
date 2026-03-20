@@ -1,0 +1,38 @@
+flowchart LR
+    A[Accuracy]
+    B[Consistency]
+    C[Traceability]
+    D[Stability]
+    E[Governance]
+
+    F[Instrumentation & Telemetry]
+    G[Signal Generation]
+    H[Metrics & Measurement]
+    I[Analytics & Visibility]
+
+    A -. governs .-> F
+    A -. governs .-> G
+    A -. governs .-> H
+    A -. governs .-> I
+
+    B -. governs .-> F
+    B -. governs .-> G
+    B -. governs .-> H
+    B -. governs .-> I
+
+    C -. governs .-> F
+    C -. governs .-> G
+    C -. governs .-> H
+    C -. governs .-> I
+
+    D -. governs .-> F
+    D -. governs .-> G
+    D -. governs .-> H
+    D -. governs .-> I
+
+    E -. governs .-> F
+    E -. governs .-> G
+    E -. governs .-> H
+    E -. governs .-> I
+
+    F --> G --> H --> I

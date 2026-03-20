@@ -1,0 +1,33 @@
+flowchart LR
+    A[Instrumentation & Telemetry Layer] --> B[Signal Generation Layer]
+    B --> C[Metrics & Measurement Layer]
+    C --> D[Analytics & Visibility Layer]
+
+    E[Measurement Integrity<br/>Cross-Cutting Layer]
+    E -. governs .-> A
+    E -. governs .-> B
+    E -. governs .-> C
+    E -. governs .-> D
+
+    F[Product Delivery System]
+    F -->|Telemetry / Execution Data| A
+
+    G[Strategy Execution System]
+    G -->|Measurement Requirements / Visibility Needs| C
+    G -. visibility needs .-> D
+
+    H[Portfolio Governance System]
+    H -->|Measurement Requirements / Visibility Needs| C
+    H -. visibility needs .-> D
+
+    D -->|Signals / Metrics / Dashboards / Descriptive Analytical Visibility| I[Customer Outcomes System]
+
+    I -->|Measurement Gaps / Refinement Needs / Instrumentation Improvements| J[DI Refinement Inputs]
+    J -. informs .-> A
+    J -. informs .-> B
+    J -. informs .-> C
+    J -. informs .-> E
+
+    D -. Visibility Only .-> G
+    D -. Visibility Only .-> H
+    D -. Visibility Only .-> F

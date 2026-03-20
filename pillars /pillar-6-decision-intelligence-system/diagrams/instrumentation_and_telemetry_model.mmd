@@ -1,0 +1,19 @@
+flowchart LR
+    A[System Activity]
+    B[Instrumentation]
+    C[Event Capture]
+    D[Telemetry Transport]
+    E[Data Availability]
+    F[Signal Generation Layer]
+    G[Measurement Integrity<br/>Cross-Cutting Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E -->|Raw Telemetry| F
+
+    G -. governs .-> B
+    G -. governs .-> C
+    G -. governs .-> D
+    G -. governs .-> E

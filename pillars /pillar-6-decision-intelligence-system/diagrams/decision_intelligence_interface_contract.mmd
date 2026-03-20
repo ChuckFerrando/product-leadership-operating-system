@@ -1,0 +1,28 @@
+flowchart LR
+    A[Product Delivery System]
+    B[Strategy Execution System]
+    C[Portfolio Governance System]
+    D[Decision Intelligence System]
+    E[Customer Outcomes System]
+
+    A -->|Telemetry / Execution Data| D
+    B -->|Measurement Requirements / Strategic Visibility Needs| D
+    C -->|Measurement Requirements / Portfolio Visibility Needs| D
+
+    D -->|Signals / Metrics / Dashboards / Descriptive Analytical Visibility| E
+
+    E -->|Measurement Gaps / Signal Refinement Needs / Instrumentation Improvements| D
+
+    D -. Visibility Only .-> A
+    D -. Visibility Only .-> B
+    D -. Visibility Only .-> C
+
+    F[No Interpretation]
+    G[No Evaluation]
+    H[No Decision Authority]
+    I[Mandatory Outcomes Mediation]
+
+    F -. constrains .-> D
+    G -. constrains .-> D
+    H -. constrains .-> D
+    I -. constrains .-> E

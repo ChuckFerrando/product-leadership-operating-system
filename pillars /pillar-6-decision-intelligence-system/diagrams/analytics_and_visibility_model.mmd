@@ -1,0 +1,39 @@
+flowchart LR
+    A[Signals]
+    B[Metrics]
+    C[Dashboards]
+    D[Reporting]
+    E[Analytical Views]
+    F[Customer Outcomes System]
+    G[Strategy Execution System]
+    H[Portfolio Governance System]
+    I[Product Delivery System]
+    J[Measurement Integrity<br/>Cross-Cutting Governance]
+
+    A --> C
+    A --> D
+    A --> E
+
+    B --> C
+    B --> D
+    B --> E
+
+    J -. governs .-> C
+    J -. governs .-> D
+    J -. governs .-> E
+
+    C -->|Descriptive Visibility| F
+    D -->|Descriptive Visibility| F
+    E -->|Descriptive Visibility| F
+
+    C -. Visibility Only .-> G
+    D -. Visibility Only .-> G
+    E -. Visibility Only .-> G
+
+    C -. Visibility Only .-> H
+    D -. Visibility Only .-> H
+    E -. Visibility Only .-> H
+
+    C -. Visibility Only .-> I
+    D -. Visibility Only .-> I
+    E -. Visibility Only .-> I

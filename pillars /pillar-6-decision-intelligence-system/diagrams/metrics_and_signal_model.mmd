@@ -1,0 +1,16 @@
+flowchart LR
+    A[Raw Telemetry]
+    B[Signals]
+    C[Metrics]
+    D[Analytics & Visibility]
+    E[Customer Outcomes System]
+    F[Measurement Integrity<br/>Cross-Cutting Governance]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|Descriptive Visibility| E
+
+    F -. governs .-> B
+    F -. governs .-> C
+    F -. governs .-> D
