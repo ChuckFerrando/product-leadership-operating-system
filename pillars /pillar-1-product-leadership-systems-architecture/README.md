@@ -12,6 +12,12 @@ This repository documents **Pillar 1** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-1-systems-architecture.png)
+
+---
+
 ## System Role in PLOS
 
 The **Product Leadership Systems Architecture (PLSA)** is the canonical architecture layer of PLOS.
