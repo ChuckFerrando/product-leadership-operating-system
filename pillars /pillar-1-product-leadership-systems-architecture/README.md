@@ -4,13 +4,16 @@
 ![Last Commit](https://img.shields.io/github/last-commit/ChuckFerrando/product-leadership-systems-architecture)
 ![Product Leadership OS](https://img.shields.io/badge/Product%20Leadership-Operating%20System-black.svg)
 
-This repository documents the **Product Leadership Systems Architecture (PLSA)** — a reference operating model for how modern product organizations translate strategy into governed investments, coordinated delivery, and measurable customer outcomes.
+This repository documents the **Product Leadership Systems Architecture (PLSA)** — the canonical five-system architecture within the **Product Leadership Operating System (PLOS)** for how modern product organizations translate strategy into governed investments, coordinated delivery, evaluated customer outcomes, and continuous learning.
 
 ## Product Leadership Systems Architecture
 
 The diagram below illustrates the **layered operating architecture** of the Product Leadership Systems Architecture (PLSA).
 
-The model separates strategic direction, portfolio decision-making, execution, and outcome realization into distinct operating layers. The Decision Intelligence System operates as a cross-cutting capability that provides measurement, analytics, and insight across the entire operating model.
+The model separates strategic direction, portfolio decision-making, execution, and outcome realization into distinct operating layers. The Decision Intelligence System operates as a cross-cutting evidence capability that provides measurement, metrics, dashboards, and descriptive analytics across the operating model.
+
+```mermaid
+flowchart TB
 
 ```mermaid
 flowchart TB
@@ -28,23 +31,32 @@ subgraph L3["Execution Layer"]
 end
 
 subgraph L4["Customer Outcomes Layer"]
-    D["Customer Outcomes System<br/>Adoption and usage<br/>Value realization<br/>Impact measurement"]
+    D["Customer Outcomes System<br/>Adoption and usage<br/>Value realization<br/>Impact evaluation<br/>Learning generation"]
 end
 
 subgraph L5["Decision Intelligence Layer"]
-    E["Decision Intelligence System<br/>Metrics and KPIs<br/>Analytics and reporting<br/>Decision support and insights"]
+    E["Decision Intelligence System<br/>Signals and telemetry<br/>Metrics and KPIs<br/>Dashboards and descriptive analytics"]
 end
 
 A -->|"Sets strategic direction"| B
 B -->|"Approves and sequences work"| C
 C -->|"Delivers capabilities"| D
-D -->|"Generates outcome signals"| E
-E -->|"Informs strategic refinement"| A
-
-E -.->|"Governance insight"| B
-E -.->|"Execution insight"| C
-E -.->|"Outcome visibility"| D
+E -->|"Provides evidence inputs"| D
+D -->|"Validated learning"| A
+D -->|"Outcome-informed portfolio feedback"| B
 ```
+
+---
+
+## Decision Intelligence Boundary
+
+The Decision Intelligence System produces signals, metrics, dashboards, and descriptive analytics.
+
+It does not interpret evidence, evaluate value, recommend action, or make decisions.
+
+All decision influence must be mediated through the Customer Outcomes System:
+
+> Decision Intelligence → Customer Outcomes → Strategy / Governance
 
 ---
 
@@ -89,7 +101,7 @@ This portfolio presents a coherent **Product Leadership Systems Architecture**:
 - Investments are governed through portfolio decision systems
 - Delivery is executed through a repeatable product operating model
 - Outcomes are measured and fed back into governance
-- Decision Intelligence provides measurement, analytics, and decision support across the entire operating model
+- Decision Intelligence provides measurement, signals, dashboards, and descriptive analytics across the operating model
 
 ---
 
@@ -103,7 +115,7 @@ Strategic direction establishes organizational priorities and investment intent.
 Portfolio governance converts those priorities into concrete investment decisions.  
 Product delivery executes the approved initiatives.  
 Customer outcomes reveal whether those initiatives created real value.  
-Decision intelligence captures insights from execution and outcomes, enabling leadership to refine strategy and begin the cycle again.
+Decision Intelligence captures signals, metrics, and descriptive analytics from execution and outcomes, while the Customer Outcomes System converts evaluated results into learning that informs strategy and governance.
 
 ```mermaid
 flowchart LR
@@ -117,8 +129,9 @@ E["Decision Intelligence System"]
 A -->|"Strategic direction"| B
 B -->|"Investment decisions"| C
 C -->|"Execution delivery"| D
-D -->|"Outcome signals"| E
-E -->|"Learning and refinement"| A
+E -->|"Signals, metrics, and descriptive analytics"| D
+D -->|"Learning and refinement"| A
+D -->|"Outcome-informed feedback"| B
 ```
 
 ---
@@ -207,8 +220,9 @@ A5 --> A1
 S1 --> G1
 G1 --> D1
 D1 --> O1
-O1 --> I1
-I1 --> S1
+I1 --> O1
+O1 --> S1
+O1 --> G1
 
 %% Mechanics Relationships
 
@@ -248,7 +262,7 @@ Each system plays a specific role in translating strategic direction into measur
 | **Portfolio Governance System** | Evaluate, prioritize, and sequence initiatives across the portfolio | Which initiatives move forward, how resources are allocated, what tradeoffs are made | Approved initiatives, portfolio priorities, funding and sequencing decisions |
 | **Product Delivery System** | Execute approved work through coordinated product and engineering delivery | How work is planned, coordinated, and delivered | Roadmaps, releases, delivered capabilities, execution progress |
 | **Customer Outcomes System** | Measure adoption, value realization, and customer impact | Whether delivered capabilities created meaningful value | Outcome signals, adoption patterns, value realization insights |
-| **Decision Intelligence System** | Provide analytics, measurement infrastructure, and decision support across the architecture | What the data indicates, where risks or opportunities exist, how leaders should refine decisions | KPIs, performance dashboards, governance insights, strategic learning |
+| **Decision Intelligence System** | Provide instrumentation, signals, metrics, dashboards, and descriptive analytics across the architecture | How evidence is captured, structured, measured, and made visible | KPIs, telemetry, dashboards, measurement outputs, descriptive analytics |
 
 This matrix reinforces a core architectural principle: **systems must remain distinct in responsibility while operating as a coordinated leadership model**.
 
@@ -291,7 +305,7 @@ The Product Leadership Systems Architecture connects strategy definition, portfo
 
 **Customer Outcomes Systems** measure adoption, value realization, and customer impact to determine whether delivered capabilities created meaningful results.
 
-**Decision Intelligence Systems** provide analytics, reporting, and decision support across the architecture, enabling leaders to learn from outcomes and refine future strategy.
+**Decision Intelligence Systems** provide signals, metrics, dashboards, reporting, and descriptive analytics across the architecture. The **Customer Outcomes System** interprets those signals, evaluates value realization, and generates the learning that informs future strategy and governance.
 
 ---
 
