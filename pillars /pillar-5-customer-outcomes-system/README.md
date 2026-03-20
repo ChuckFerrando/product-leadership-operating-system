@@ -12,6 +12,13 @@ This repository documents **Pillar 5** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-5-customer-outcomes.png)
+
+
+---
+
 ## System Role in PLOS
 
 The **Customer Outcomes System** is the meaning, evaluation, and learning layer of PLOS.
