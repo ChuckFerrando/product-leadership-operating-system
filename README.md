@@ -78,6 +78,24 @@ PLOS provides:
 
 ---
 
+## Quick Navigation
+
+### Portfolio Controls
+- [Portfolio Architecture](./portfolio-architecture/)
+- [Cross-Pillar Rules](./cross-pillar/)
+
+### Pillars
+- [Pillar 1 — Product Leadership Systems Architecture](./pillars/pillar-1-product-leadership-systems-architecture/)
+- [Pillar 2 — Product Leadership Operating Model](./pillars/pillar-2-product-leadership-operating-model/)
+- [Pillar 3 — Portfolio Governance System](./pillars/pillar-3-portfolio-governance-system/)
+- [Pillar 4 — Product Delivery System](./pillars/pillar-4-product-delivery-system/)
+- [Pillar 5 — Customer Outcomes System](./pillars/pillar-5-customer-outcomes-system/)
+- [Pillar 6 — Decision Intelligence System](./pillars/pillar-6-decision-intelligence-system/)
+- [Pillar 7 — Product Leadership Playbooks](./pillars/pillar-7-product-leadership-playbooks/)
+- [Pillar 8 — Product Leadership Labs](./pillars/pillar-8-product-leadership-labs/)
+
+---
+
 ## Repository Structure
 
 ```text
