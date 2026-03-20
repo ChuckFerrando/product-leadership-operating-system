@@ -12,6 +12,12 @@ This repository documents **Pillar 2** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-2-operating-model.png)
+
+---
+
 ## System Role in PLOS
 
 The **Product Leadership Operating Model** defines how leaders run PLOS in practice.
