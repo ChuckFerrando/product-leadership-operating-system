@@ -16,7 +16,6 @@ This repository documents **Pillar 6** of the **Product Leadership Operating Sys
 
 ![Pillar Diagram](../../assets/diagrams/pillar-6-decision-intelligence.png)
 
-
 ---
 
 ## System Role in PLOS
