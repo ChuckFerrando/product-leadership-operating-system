@@ -12,6 +12,13 @@ This repository documents **Pillar 6** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-6-decision-intelligence.png)
+
+
+---
+
 ## System Role in PLOS
 
 The **Decision Intelligence System** is the evidence-producing system within PLOS.
