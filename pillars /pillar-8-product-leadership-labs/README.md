@@ -12,6 +12,12 @@ This repository documents **Pillar 8** of the **Product Leadership Operating Sys
 
 ---
 
+## Diagram
+
+![Pillar Diagram](../../assets/diagrams/pillar-8-product-leadership-labs.png)
+
+---
+
 ## System Role in PLOS
 
 The **Product Leadership Labs** pillar defines the controlled experimentation layer of PLOS.
