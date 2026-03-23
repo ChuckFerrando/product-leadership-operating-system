@@ -54,11 +54,9 @@ Pillar 1 defines the architecture. It does not replace the execution responsibil
 It must preserve:
 
 - exact system boundaries
-- exact canonical loop:
-  **Strategy → Governance → Delivery → Outcomes → Learning → Strategy**
+- exact canonical loop: **Strategy → Governance → Delivery → Outcomes → Learning → Strategy**
 - separation between evidence, meaning, and decision-making
-- the mandatory mediation path:
-  **Decision Intelligence → Customer Outcomes → Strategy / Governance**
+- the mandatory mediation path: **Decision Intelligence → Customer Outcomes → Strategy / Governance**
 
 It must not:
 
