@@ -12,7 +12,14 @@ All decision influence in PLOS must follow:
 ## Interpretation Rule
 
 Decision Intelligence may produce signals, metrics, dashboards, and descriptive analytics.
-It may not interpret, evaluate, assign value, recommend, or decide.
+
+It may not:
+- interpret
+- evaluate
+- assign value
+- recommend
+- decide
 
 Customer Outcomes owns interpretation, evaluation, and learning.
+
 Strategy and Governance own decision-making in their respective domains.
