@@ -65,6 +65,7 @@ product-leadership-operating-system/
 ├── assets/branding/
 ├── assets/diagrams/
 └── docs/
+```
 
 ---
 
