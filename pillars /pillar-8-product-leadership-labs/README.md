@@ -79,7 +79,11 @@ Promotion must follow:
 ## Repository Structure
 
 - `/architecture` → canonical labs system definitions
-- `/experiments` → experiment lifecycle artifacts and experiment domains
+- `/experiments/proposed` → proposed experiments not yet running
+- `/experiments/active` → currently active experiments organized by domain
+- `/experiments/completed` → completed experiments retained for reference
+- `/experiments/archived` → retired or superseded experiments
+- `/experiments/summaries` → synthesis artifacts across experiments
 - `/promotion` → promotion review materials and transition artifacts
 - `/standards` → labs standards and boundary controls
 - `/assets/diagrams` → pillar diagrams and rendered assets
@@ -89,7 +93,11 @@ Promotion must follow:
 ## Key Artifacts
 
 - `README.md`
-- `experiments/`
+- `experiments/proposed/`
+- `experiments/active/`
+- `experiments/completed/`
+- `experiments/archived/`
+- `experiments/summaries/`
 - `promotion/`
 - `standards/`
 - `assets/diagrams/`
