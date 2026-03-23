@@ -102,7 +102,3 @@ It must not:
 This project is licensed under the MIT License.
 
 See the [LICENSE](../../LICENSE) file for details.
-
-See the full license text in the repository:
-
-[MIT License](LICENSE)
