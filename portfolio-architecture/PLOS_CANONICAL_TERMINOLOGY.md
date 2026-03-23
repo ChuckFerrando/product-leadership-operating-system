@@ -385,7 +385,9 @@ The following rules are mandatory across the portfolio:
 4. **Do not use local shorthand that obscures formal ownership**  
 5. **Do not mix explanatory phrasing with canonical naming in a way that creates ambiguity**  
 6. **Do not allow README simplifications to become architecture drift**  
-7. **Do not use new names for existing concepts without explicit architectural justification**
+7. **Do not use new names for existing concepts without explicit architectural justification**  
+8. **All diagram labels must match canonical terminology exactly**  
+   No diagram may introduce alternate naming for canonical systems or pillars.
 
 Terminology consistency is required across:
 - repositories
