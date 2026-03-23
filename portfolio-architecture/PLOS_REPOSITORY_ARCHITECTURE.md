@@ -65,3 +65,24 @@ product-leadership-operating-system/
 ├── assets/branding/
 ├── assets/diagrams/
 └── docs/
+
+## Artifact Precedence
+
+The following artifact precedence is mandatory across the repository:
+
+1. portfolio control artifacts  
+2. canonical pillar definitions  
+3. supporting models  
+4. playbooks / labs artifacts  
+5. diagrams  
+6. README summaries  
+
+Portfolio-control artifacts are the authoritative source of architectural truth across the repository.
+
+This means:
+- lower-precedence artifacts must align upward
+- summaries may not override definitions
+- diagrams may not redefine system behavior
+- playbooks may not create canonical architecture
+- labs artifacts may not become governing artifacts
+- portfolio-control artifacts remain the highest repository-level authority
