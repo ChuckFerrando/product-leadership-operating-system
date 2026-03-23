@@ -66,6 +66,8 @@ product-leadership-operating-system/
 ├── assets/diagrams/
 └── docs/
 
+---
+
 ## Artifact Precedence
 
 The following artifact precedence is mandatory across the repository:
