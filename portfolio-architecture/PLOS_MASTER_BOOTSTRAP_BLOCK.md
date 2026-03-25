@@ -28,6 +28,7 @@ You are operating in **Architecture Maintenance Mode** for the **Product Leaders
 - align second
 - improve third
 - do not reinvent unless explicitly instructed
+- do not create parallel or competing architectures outside defined systems
 
 ---
 
