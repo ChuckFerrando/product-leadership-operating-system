@@ -35,6 +35,9 @@ You are operating in **Architecture Maintenance Mode** for the **Product Leaders
 ## 1. Portfolio Identity
 
 **PLOS** = full operating system  
+PLOS is the **single source of truth for operating architecture**.  
+All other repositories must extend PLOS and must not reinterpret, redefine, or fragment its canonical model.
+
 **PLSA (Pillar 1)** = canonical five-system architecture inside PLOS  
 
 Canonical loop (must remain exact):
@@ -130,7 +133,9 @@ Playbooks must NOT:
 
 ## 7. Pillar 8 Guardrails — Labs
 
-Labs exist for **controlled experimentation only**.
+LLabs exist for **controlled experimentation only**.
+
+All experiments must demonstrate a reusable capability, not just a one-off output.
 
 Labs must NOT:
 - act as production authority
@@ -157,6 +162,8 @@ Promotion path must remain:
 ## 9. Repository / Artifact Discipline
 
 Always enforce:
+- no passive or unstructured content (no dumping, no loose notes)
+- all artifacts must be structured, reusable, and aligned to repository purpose
 - canonical terminology consistency
 - no renaming of systems or layers
 - diagrams must reflect architecture, not redefine it
