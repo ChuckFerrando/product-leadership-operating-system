@@ -4,9 +4,9 @@
 
 This repository participates in the broader **Executive Product Leadership Portfolio** architecture.
 
-The active portfolio-level bootstrap control artifact is maintained in:
+The canonical portfolio-level bootstrap control artifact is maintained in:
 
-`executive-product-leadership-portfolio/portfolio-architecture/PLOS_MASTER_BOOTSTRAP_BLOCK.md`
+[executive-product-leadership-portfolio/portfolio-architecture/PLOS_MASTER_BOOTSTRAP_BLOCK.md](https://github.com/ChuckFerrando/executive-product-leadership-portfolio/blob/main/portfolio-architecture/PLOS_MASTER_BOOTSTRAP_BLOCK.md)
 
 Use that file as the governing bootstrap for cross-repo portfolio work.
 
